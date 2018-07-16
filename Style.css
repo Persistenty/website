@@ -1,0 +1,100 @@
+p{ line-height: 1em;
+font-style: italic;
+ }
+
+
+h1{
+        color:black;
+	font-weight:huge ;
+	line-height: 1.3em;
+	margin: 0 0 .2em 0;
+        font-size: 1.7em;
+        font-style: italic;
+}
+
+.jumbotron{
+min-height:600px;
+background-image: url('sky.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+ol
+
+h2{
+  font-stretch: extra-expanded;
+        color: black;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+        font-size: 1.5em;
+        font-style: oblique;
+
+}
+ ol li{ font-weight: normal;
+color:black;
+
+}
+
+body{
+    font-family: Arial;  line-height: 1.2em; width: 100%; margin: 0;
+    background-image: url("ribbon.jpg");
+}
+#page{ margin: 20px; }
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+#nav ul li{
+			display: inline-block;
+			height: 60px;
+          }
+
+			#nav ul li a{
+				padding: 27px;
+				background: purple;
+				color: white;
+        font-size:big;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+        background-image: url("images/RAINBOW.jpg")
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color:#00ffdd;
+       }
+.jumbotron{
+background-image: url('ribbon.jpg')!important;
+background-size: cover;
+background-attachment: fixed;
+}
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 40px;disp
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: black;
+	}
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+table{
+  font-size: 1.3em;
+}
